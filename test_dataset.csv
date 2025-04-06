@@ -1,0 +1,182 @@
+Name,Pokedex Number,Abilities,Legendary,Type
+Charizard,006,"Blaze, Solar-power",0,"Fire, Flying"
+Arbok,024,"Intimidate, Shed-skin, Unnerve",0,Poison
+Raichu,026,"Static, Lightning-rod",0,Electric
+Nidoqueen,031,"Poison-point, Rivalry, Sheer-force",0,"Poison, Ground"
+Nidoran-m,032,"Poison-point, Rivalry, Hustle",0,Poison
+Nidoking,034,"Poison-point, Rivalry, Sheer-force",0,"Poison, Ground"
+Wigglytuff,040,"Cute-charm, Competitive, Frisk",0,"Normal, Fairy"
+Vileplume,045,"Chlorophyll, Effect-spore",0,"Grass, Poison"
+Diglett,050,"Sand-veil, Arena-trap, Sand-force",0,Ground
+Golduck,055,"Damp, Cloud-nine, Swift-swim",0,Water
+Poliwhirl,061,"Water-absorb, Damp, Swift-swim",0,Water
+Kadabra,064,"Synchronize, Inner-focus, Magic-guard",0,Psychic
+Machop,066,"Guts, No-guard, Steadfast",0,Fighting
+Machoke,067,"Guts, No-guard, Steadfast",0,Fighting
+Machamp,068,"Guts, No-guard, Steadfast",0,Fighting
+Victreebel,071,"Chlorophyll, Gluttony",0,"Grass, Poison"
+Tentacruel,073,"Clear-body, Liquid-ooze, Rain-dish",0,"Water, Poison"
+Ponyta,077,"Run-away, Flash-fire, Flame-body",0,Fire
+Rapidash,078,"Run-away, Flash-fire, Flame-body",0,Fire
+Slowpoke,079,"Oblivious, Own-tempo, Regenerator",0,"Water, Psychic"
+Farfetchd,083,"Keen-eye, Inner-focus, Defiant",0,"Normal, Flying"
+Dodrio,085,"Run-away, Early-bird, Tangled-feet",0,"Normal, Flying"
+Dewgong,087,"Thick-fat, Hydration, Ice-body",0,"Water, Ice"
+Hypno,097,"Insomnia, Forewarn, Inner-focus",0,Psychic
+Krabby,098,"Hyper-cutter, Shell-armor, Sheer-force",0,Water
+Weezing,110,"Levitate, Neutralizing-gas, Stench",0,Poison
+Rhyhorn,111,"Lightning-rod, Rock-head, Reckless",0,"Ground, Rock"
+Starmie,121,"Illuminate, Natural-cure, Analytic",0,"Water, Psychic"
+Porygon,137,"Trace, Download, Analytic",0,Normal
+Omanyte,138,"Swift-swim, Shell-armor, Weak-armor",0,"Rock, Water"
+Kabuto,140,"Swift-swim, Battle-armor, Weak-armor",0,"Rock, Water"
+Aerodactyl,142,"Rock-head, Pressure, Unnerve",0,"Rock, Flying"
+Ledian,166,"Swarm, Early-bird, Iron-fist",0,"Bug, Flying"
+Crobat,169,"Inner-focus, Infiltrator",0,"Poison, Flying"
+Togepi,175,"Hustle, Serene-grace, Super-luck",0,Fairy
+Yanma,193,"Speed-boost, Compound-eyes, Frisk",0,"Bug, Flying"
+Slowking,199,"Oblivious, Own-tempo, Regenerator",0,"Water, Psychic"
+Snubbull,209,"Intimidate, Run-away, Rattled",0,Fairy
+Granbull,210,"Intimidate, Quick-feet, Rattled",0,Fairy
+Qwilfish,211,"Poison-point, Swift-swim, Intimidate",0,"Water, Poison"
+Scizor,212,"Swarm, Technician, Light-metal",0,"Bug, Steel"
+Heracross,214,"Swarm, Guts, Moxie",0,"Bug, Fighting"
+Teddiursa,216,"Pickup, Quick-feet, Honey-gather",0,Normal
+Magcargo,219,"Magma-armor, Flame-body, Weak-armor",0,"Fire, Rock"
+Houndour,228,"Early-bird, Flash-fire, Unnerve",0,"Dark, Fire"
+Donphan,232,"Sturdy, Sand-veil",0,Ground
+Tyrogue,236,"Guts, Steadfast, Vital-spirit",0,Fighting
+Magby,240,"Flame-body, Vital-spirit",0,Fire
+Suicune,245,"Pressure, Inner-focus",1,Water
+Celebi,251,Natural-cure,1,"Psychic, Grass"
+Torchic,255,"Blaze, Speed-boost",0,Fire
+Swampert,260,"Torrent, Damp",0,"Water, Ground"
+Poochyena,261,"Run-away, Quick-feet, Rattled",0,Dark
+Kirlia,281,"Synchronize, Trace, Telepathy",0,"Psychic, Fairy"
+Gardevoir,282,"Synchronize, Trace, Telepathy",0,"Psychic, Fairy"
+Slakoth,287,Truant,0,Normal
+Shedinja,292,Wonder-guard,0,"Bug, Ghost"
+Whismur,293,"Soundproof, Rattled",0,Normal
+Hariyama,297,"Thick-fat, Guts, Sheer-force",0,Fighting
+Nosepass,299,"Sturdy, Magnet-pull, Sand-force",0,Rock
+Delcatty,301,"Cute-charm, Normalize, Wonder-skin",0,Normal
+Mawile,303,"Hyper-cutter, Intimidate, Sheer-force",0,"Steel, Fairy"
+Aggron,306,"Sturdy, Rock-head, Heavy-metal",0,"Steel, Rock"
+Meditite,307,"Pure-power, Telepathy",0,"Fighting, Psychic"
+Manectric,310,"Static, Lightning-rod, Minus",0,Electric
+Volbeat,313,"Illuminate, Swarm, Prankster",0,Bug
+Numel,322,"Oblivious, Simple, Own-tempo",0,"Fire, Ground"
+Torkoal,324,"White-smoke, Drought, Shell-armor",0,Fire
+Spinda,327,"Own-tempo, Tangled-feet, Contrary",0,Normal
+Trapinch,328,"Hyper-cutter, Arena-trap, Sheer-force",0,Ground
+Cacturne,332,"Sand-veil, Water-absorb",0,"Grass, Dark"
+Swablu,333,"Natural-cure, Cloud-nine",0,"Normal, Flying"
+Altaria,334,"Natural-cure, Cloud-nine",0,"Dragon, Flying"
+Baltoy,343,Levitate,0,"Ground, Psychic"
+Anorith,347,"Battle-armor, Swift-swim",0,"Rock, Bug"
+Castform,351,Forecast,0,Normal
+Dusclops,356,"Pressure, Frisk",0,Ghost
+Glalie,362,"Inner-focus, Ice-body, Moody",0,Ice
+Gorebyss,368,"Swift-swim, Hydration",0,Water
+Relicanth,369,"Swift-swim, Rock-head, Sturdy",0,"Water, Rock"
+Bagon,371,"Rock-head, Sheer-force",0,Dragon
+Kyogre,382,Drizzle,1,Water
+Groudon,383,Drought,1,Ground
+Luxray,405,"Rivalry, Intimidate, Guts",0,Electric
+Rampardos,409,"Mold-breaker, Sheer-force",0,Rock
+Shieldon,410,"Sturdy, Soundproof",0,"Rock, Steel"
+Pachirisu,417,"Run-away, Pickup, Volt-absorb",0,Electric
+Cherrim,421,Flower-gift,0,Grass
+Drifblim,426,"Aftermath, Unburden, Flare-boost",0,"Ghost, Flying"
+Chingling,433,Levitate,0,Psychic
+Bronzong,437,"Levitate, Heatproof, Heavy-metal",0,"Steel, Psychic"
+Gible,443,"Sand-veil, Rough-skin",0,"Dragon, Ground"
+Munchlax,446,"Pickup, Thick-fat, Gluttony",0,Normal
+Hippopotas,449,"Sand-stream, Sand-force",0,Ground
+Toxicroak,454,"Anticipation, Dry-skin, Poison-touch",0,"Poison, Fighting"
+Mantyke,458,"Swift-swim, Water-absorb, Water-veil",0,"Water, Flying"
+Yanmega,469,"Speed-boost, Tinted-lens, Frisk",0,"Bug, Flying"
+Dialga,483,"Pressure, Telepathy",1,"Steel, Dragon"
+Palkia,484,"Pressure, Telepathy",1,"Water, Dragon"
+Giratina-altered,487,"Pressure, Telepathy",1,"Ghost, Dragon"
+Cresselia,488,Levitate,1,Psychic
+Darkrai,491,Bad-dreams,1,Dark
+Victini,494,Victory-star,1,"Psychic, Fire"
+Snivy,495,"Overgrow, Contrary",0,Grass
+Dewott,502,"Torrent, Shell-armor",0,Water
+Pidove,519,"Big-pecks, Super-luck, Rivalry",0,"Normal, Flying"
+Audino,531,"Healer, Regenerator, Klutz",0,Normal
+Palpitoad,536,"Swift-swim, Hydration, Water-absorb",0,"Water, Ground"
+Sawk,539,"Sturdy, Inner-focus, Mold-breaker",0,Fighting
+Venipede,543,"Poison-point, Swarm, Speed-boost",0,"Bug, Poison"
+Scolipede,545,"Poison-point, Swarm, Speed-boost",0,"Bug, Poison"
+Cottonee,546,"Prankster, Infiltrator, Chlorophyll",0,"Grass, Fairy"
+Petilil,548,"Chlorophyll, Own-tempo, Leaf-guard",0,Grass
+Krokorok,552,"Intimidate, Moxie, Anger-point",0,"Ground, Dark"
+Trubbish,568,"Stench, Sticky-hold, Aftermath",0,Poison
+Cinccino,573,"Cute-charm, Technician, Skill-link",0,Normal
+Reuniclus,579,"Overcoat, Magic-guard, Regenerator",0,Psychic
+Deerling,585,"Chlorophyll, Sap-sipper, Serene-grace",0,"Normal, Grass"
+Sawsbuck,586,"Chlorophyll, Sap-sipper, Serene-grace",0,"Normal, Grass"
+Escavalier,589,"Swarm, Shell-armor, Overcoat",0,"Bug, Steel"
+Amoonguss,591,"Effect-spore, Regenerator",0,"Grass, Poison"
+Frillish,592,"Water-absorb, Cursed-body, Damp",0,"Water, Ghost"
+Joltik,595,"Compound-eyes, Unnerve, Swarm",0,"Bug, Electric"
+Beheeyem,606,"Telepathy, Synchronize, Analytic",0,Psychic
+Haxorus,612,"Rivalry, Mold-breaker, Unnerve",0,Dragon
+Shelmet,616,"Hydration, Shell-armor, Overcoat",0,Bug
+Accelgor,617,"Hydration, Sticky-hold, Unburden",0,Bug
+Stunfisk,618,"Static, Limber, Sand-veil",0,"Ground, Electric"
+Bouffalant,626,"Reckless, Sap-sipper, Soundproof",0,Normal
+Rufflet,627,"Keen-eye, Sheer-force, Hustle",0,"Normal, Flying"
+Zweilous,634,Hustle,0,"Dark, Dragon"
+Hydreigon,635,Levitate,0,"Dark, Dragon"
+Tornadus-incarnate,641,"Prankster, Defiant",1,Flying
+Froakie,656,"Torrent, Protean",0,Water
+Fletchling,661,"Big-pecks, Gale-wings",0,"Normal, Flying"
+Pyroar,668,"Rivalry, Unnerve, Moxie",0,"Fire, Normal"
+Meowstic-male,678,"Keen-eye, Infiltrator, Prankster",0,Psychic
+Clawitzer,693,Mega-launcher,0,Water
+Helioptile,694,"Dry-skin, Sand-veil, Solar-power",0,"Electric, Normal"
+Tyrantrum,697,"Strong-jaw, Rock-head",0,"Rock, Dragon"
+Sliggoo,705,"Sap-sipper, Hydration, Gooey",0,Dragon
+Trevenant,709,"Natural-cure, Frisk, Harvest",0,"Ghost, Grass"
+Avalugg,713,"Own-tempo, Ice-body, Sturdy",0,Ice
+Noivern,715,"Frisk, Infiltrator, Telepathy",0,"Flying, Dragon"
+Brionne,729,"Torrent, Liquid-voice",0,Water
+Gumshoos,735,"Stakeout, Strong-jaw, Adaptability",0,Normal
+Vikavolt,738,Levitate,0,"Bug, Electric"
+Crabominable,740,"Hyper-cutter, Iron-fist, Anger-point",0,"Fighting, Ice"
+Wishiwashi-solo,746,Schooling,0,Water
+Mudsdale,750,"Own-tempo, Stamina, Inner-focus",0,Ground
+Bounsweet,761,"Leaf-guard, Oblivious, Sweet-veil",0,Grass
+Jangmo-o,782,"Bulletproof, Soundproof, Overcoat",0,Dragon
+Kommo-o,784,"Bulletproof, Soundproof, Overcoat",0,"Dragon, Fighting"
+Tapu-koko,785,"Electric-surge, Telepathy",1,"Electric, Fairy"
+Cosmog,789,Unaware,1,Psychic
+Cosmoem,790,Sturdy,1,Psychic
+Celesteela,797,Beast-boost,0,"Steel, Flying"
+Poipole,803,Beast-boost,0,Poison
+Melmetal,809,Iron-fist,1,Steel
+Rillaboom,812,"Overgrow, Grassy-surge",0,Grass
+Cinderace,815,"Blaze, Libero",0,Fire
+Drizzile,817,"Torrent, Sniper",0,Water
+Orbeetle,826,"Swarm, Frisk, Telepathy",0,"Bug, Psychic"
+Chewtle,833,"Strong-jaw, Shell-armor, Swift-swim",0,Water
+Yamper,835,"Ball-fetch, Rattled",0,Electric
+Silicobra,843,"Sand-spit, Shed-skin, Sand-veil",0,Ground
+Arrokuda,846,"Swift-swim, Propeller-tail",0,Water
+Toxtricity-amped,849,"Punk-rock, Plus, Technician",0,"Electric, Poison"
+Centiskorch,851,"Flash-fire, White-smoke, Flame-body",0,"Fire, Bug"
+Hatenna,856,"Healer, Anticipation, Magic-bounce",0,Psychic
+Perrserker,863,"Battle-armor, Tough-claws, Steely-spirit",0,Steel
+Mr-rime,866,"Tangled-feet, Screen-cleaner, Ice-body",0,"Ice, Psychic"
+Milcery,868,"Sweet-veil, Aroma-veil",0,Fairy
+Alcremie,869,"Sweet-veil, Aroma-veil",0,Fairy
+Dreepy,885,"Clear-body, Infiltrator, Cursed-body",0,"Dragon, Ghost"
+Kubfu,891,Inner-focus,1,Fighting
+Urshifu-single-strike,892,Unseen-fist,1,"Fighting, Dark"
+Wyrdeer,899,"Intimidate, Frisk, Sap-sipper",0,"Normal, Psychic"
+Kleavor,900,"Swarm, Sheer-force, Sharpness",0,"Bug, Rock"
+Ursaluna,901,"Guts, Bulletproof, Unnerve",0,"Ground, Normal"
+Overqwil,904,"Poison-point, Swift-swim, Intimidate",0,"Dark, Poison"
