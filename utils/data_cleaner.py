@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 
-df = pd.read_csv("../pokemon_data.csv")
+df = pd.read_csv("../data/pokemon_data.csv")
 #print(df.head())
 print(df.columns)
 df.drop(columns=['Height (m)', 'Weight (kg)', 'Generation', 'Classification'], inplace=True)

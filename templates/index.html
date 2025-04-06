@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokémon Selfie Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #b40000;
+            text-align: center;
+        }
+        
+        .upload-section {
+            margin: 20px 0;
+        }
+        
+        input[type="file"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+        button {
+            background-color: #d31414;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        button:hover {
+            background-color: #d81b60;
+        }
+        
+        .preview {
+            max-width: 100%;
+            max-height: 300px;
+            margin: 20px auto;
+            display: none;
+            border-radius: 8px;
+        }
+        
+        .results {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: none;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        
+        .type-image {
+            max-width: 100px;
+            max-height: 100px;
+            margin: 10px auto;
+            display: block;
+        }
+        
+        .error {
+            color: red;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>What Pokémon Are You?</h1>
+        
+        <div class="upload-section">
+            <input type="file" id="imageInput" accept="image/*">
+            <button id="analyzeBtn">Analyze</button>
+            <div id="error" class="error"></div>
+        </div>
+        
+        <img id="preview" class="preview">
+        
+        <div id="results" class="results">
+            <h2 id="pokemonName"></h2>
+            <img id="typeImage" class="type-image" onerror="this.onerror=null; console.error('Image failed to load');"/>
+        </div>
+    </div>
+    
+    <script>
+        // Preview the image
+        document.getElementById('imageInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const preview = document.getElementById('preview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+        
+        // Process image when button is clicked
+        document.getElementById('analyzeBtn').addEventListener('click', function() {
+            const fileInput = document.getElementById('imageInput');
+            const errorDiv = document.getElementById('error');
+            const resultsDiv = document.getElementById('results');
+            
+            errorDiv.textContent = '';
+            resultsDiv.style.display = 'none';
+            
+            if (!fileInput.files[0]) {
+                errorDiv.textContent = 'Please select an image first';
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('image', fileInput.files[0]);
+            
+            fetch('/process', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Server error: ' + response.status);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.error) {
+                    errorDiv.textContent = data.error;
+                } else {
+                    document.getElementById('pokemonName').textContent = 'You are: ' + data.name;
+                    
+                    // Set the image source
+                    const typeImage = document.getElementById('typeImage');
+                    typeImage.src = data.typeImage;
+                    console.log('Setting image src to:', data.typeImage);
+                    
+                    resultsDiv.style.display = 'block';
+                }
+            })
+            .catch(error => {
+                errorDiv.textContent = error.message;
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
